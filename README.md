@@ -1,4 +1,6 @@
-# 四则计算器
+<div align="center">
+<h1 align="center">四则计算器</h1>
+</div>
 
 ## 功能
 - [x] 多项表达式分析拆解
