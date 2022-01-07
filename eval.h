@@ -8,12 +8,12 @@ using namespace std;
 
 class Solution
 {
-	private:
-		int prio(string op);
-		bool isdigit(const string str);
-		vector<string> Trans(vector<string> str);
-	public:
-		double eval(vector<string> temp);
+private:
+	int prio(string op);
+	bool isdigit(const string str);
+	vector<string> Trans(vector<string> str);
+public:
+	double eval(vector<string> temp);
 };
 
 inline int Solution::prio(string op)
@@ -125,7 +125,7 @@ inline double Solution::eval(vector<string> temp)
 		{
 			stack.push(stod(tokens[i]));
 		}
-
+		
 	}
 	return stack.top();
 }

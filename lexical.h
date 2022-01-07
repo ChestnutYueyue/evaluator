@@ -3,8 +3,11 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "eval.h"
 using namespace std;
-class Lexical
+
+//Lexical¼Ì³ÐSolution
+class Lexical: public Solution
 {
 	private:
 		string Str;
