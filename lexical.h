@@ -6,7 +6,7 @@
 #include "eval.h"
 using namespace std;
 
-//Lexical¼Ì³ÐSolution
+//Lexicalç»§æ‰¿Solution
 class Lexical: public Solution
 {
 	private:

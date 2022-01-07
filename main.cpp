@@ -11,11 +11,10 @@ int main()
 	Lexical splie;
 	while (1)
 	{
-
-		cout << "ÇëÊäÈë±í´ïÊ½£º";
+		cout << "è¯·è¾“å…¥è¡¨è¾¾å¼ï¼š";
 		cin >> infix;
 		splie = infix;
-		cout << "¼ÆËã½á¹ûÎª£º" << splie.eval(splie.split()) << endl;
+		cout << "è®¡ç®—ç»“æžœä¸ºï¼š" << splie.eval(splie.split()) << endl;
 	}
 	return 0;
 }

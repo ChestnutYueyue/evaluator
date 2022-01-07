@@ -125,7 +125,7 @@ inline double Solution::eval(vector<string> temp)
 		{
 			stack.push(stod(tokens[i]));
 		}
-		
+
 	}
 	return stack.top();
 }
