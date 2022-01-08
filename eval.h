@@ -12,6 +12,7 @@ private:
 	int prio(string op);
 	bool isdigit(const string str);
 	vector<string> Trans(vector<string> str);
+
 public:
 	double eval(vector<string> temp);
 };
@@ -78,7 +79,7 @@ inline vector<string> Solution::Trans(vector<string> str)
 	}
 	while (!stack.empty())
 	{
-		temp.push_back( stack.top());
+		temp.push_back(stack.top());
 		stack.pop();
 	}
 	return temp;
@@ -125,7 +126,6 @@ inline double Solution::eval(vector<string> temp)
 		{
 			stack.push(stod(tokens[i]));
 		}
-
 	}
 	return stack.top();
 }

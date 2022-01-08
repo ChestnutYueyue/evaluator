@@ -14,7 +14,7 @@ int main()
 		cout << "请输入表达式：";
 		cin >> infix;
 		splie = infix;
-		cout << "计算结果为：" << splie.eval(splie.split()) << endl;
+		cout << "计算结果为：" << splie.eval() << endl;
 	}
 	return 0;
 }
